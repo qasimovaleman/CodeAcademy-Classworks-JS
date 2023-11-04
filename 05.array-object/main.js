@@ -55,41 +55,50 @@
 //--------------------------OPTIONAL-TASK
 //--------------------------TASK-1
 //Verilmis arrayin tek elementlerinin indexini capa veren proqram tertib edin
-
-let arr = [3, 8, 2, 5, 4, 10, 7, 6];
-
-for (let i = 2; i < arr.length; i = i + 1) {
-  if (i % 2 === 1) {
-    console.log([i]);
-  }
-}
-
+//-------------------------------PART-1
+// let arr = [3, 8, 2, 5, 4, 10, 7, 6];
+// let tekIndex = [];
+// for (let i = 0; i < arr.length; i = i + 1) {
+//   if (arr[i] % 2 === 1) tekIndex.push(i);
+// }
+// console.log(tekIndex);
+//-------------------------PART-2
+// let arr = [3, 8, 2, 5, 4, 10, 7, 6];
+// for (let i = 0; i < arr.length; i++) {
+//   if (arr[i] % 2 === 1) {
+//     console.log(i);
+//   }
+// }
 //--------------------------TASK-2
 //Verilmis arrayin tek indexli elementlerini capa veren proqram yazin
-// let arr=[3, 8, 2, 5, 4, 10, 7, 6]
-// let tekElementIndex = {}
-//   for(let i =1;i<arr.length;i++){
-//     if(arr % 2 === 1){
+// let arr = [3, 8, 2, 5, 4, 10, 7, 6];
 
-//     }
-//   }
+// let tekElement = [];
+// for (let i = 0; i < arr.length; i++) {
+//   if (arr[i] % 2 === 1) tekElement.push(arr[i]);
+// }
+// console.log(tekElement);
 //--------------------------TASK-3
 //Verilmis arrayin cut elementlerinin max elementini capa veren proqram tertib edin.
 
 // let arr = [3, 8, 2, 5, 4, 10, 7, 6];
 // let max = arr[4];
-// for (let i = 1; i < arr.length; i++) {
+// for (let i = 2; i < arr.length; i++) {
 //   if (arr[i] > max) {
 //     max = arr[i];
 //   }
 // }
 // console.log("max:", max);
 //------------------------TASK-4
-//Verilmis ededin arrayda olub olmadigini teyin eden proqram yazin
-let myArray = [1,2,3,4,5];
-let num  = 10;
-if(myArray.includes(num)){
-  console.log("10 ededi arrayda movcuddur");
-}else{
-  console.log("10 ededi arrayda movcud deyil");
-}
+//Verilmis ededin arrayda olub olmadigini teyin eden proqram yazin.
+//------------------------PART-1
+// let myArray = [1, 2, 3, 4, 5];
+// let num = 10;
+// if (myArray.includes(num)) {
+//   console.log("10 ededi arrayda movcuddur");
+// } else {
+//   console.log("10 ededi arrayda movcud deyil");
+// }
+// //------------------------PART-2
+// const numbers = [3, 8, 9, 1, 2];
+// console.log(numbers instanceof Array);
