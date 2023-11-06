@@ -19,5 +19,5 @@ for (let i = 0; i < ItCompanles.length; i++) {
   arr.push(ItCompanles[i].toLocaleUpperCase());
 }
 console.log(arr);
-console.log(ItCompanles.toString());
+//console.log(ItCompanles.toString());
 console.log(`${ItCompanles.toString()} Boyuk IT wirketleridir`);
