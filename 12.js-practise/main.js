@@ -213,24 +213,38 @@ let employees = [
 // });
 // console.log(maxSkills);
 
-// isLoggedIn true olanları array şəklində return edin
-// let loggedinTrue = employees.filter((elem) => elem.isLoggedIn);
+// // isLoggedIn true olanları array şəklində return edin
+// // let loggedinTrue = employees.filter((elem) => elem.isLoggedIn);
 
-// console.log(loggedinTrue);
+// // console.log(loggedinTrue);
 
-// age'ə görə sort edin
+// // age'ə görə sort edin
 
-// let result = employees.sort((a, b) => a.age - b.age)
-// console.log(result);
-// console.log(result);
-// Random 1 den 10 a qeder reqem generate edin ve sonra arrayda hemin reqemin olub olmamasini yoxlayin
-let numArr = [2, 8, 3, 9, 7];
-function checkRandomArray(array) {
-  let randomNumber = Math.floor(Math.random() * 10);
-  if (array.includes(randomNumber)) {
-    return `${randomNumber} number includes in[${array}]`;
-  } else {
-    return `${randomNumber} number does not includes in[${array}]`;
-  }
-}
-console.log(checkRandomArray(numArr));
+// // let result = employees.sort((a, b) => a.age - b.age)
+// // console.log(result);
+// // console.log(result);
+// // Random 1 den 10 a qeder reqem generate edin ve sonra arrayda hemin reqemin olub olmamasini yoxlayin
+// let numArr = [2, 8, 3, 9, 7];
+// function checkRandomArray(array) {
+//   let randomNumber = Math.floor(Math.random() * 10);
+//   if (array.includes(randomNumber)) {
+//     return `${randomNumber} number includes in[${array}]`;
+//   } else {
+//     return `${randomNumber} number does not includes in[${array}]`;
+//   }
+// }
+// console.log(checkRandomArray(numArr));
+
+
+//
+//
+//
+
+let arr = ["I", "go", "home"];
+
+delete arr[1]; // remove "go"
+
+console.log(arr[1]); // undefined
+
+// now arr = ["I",  , "home"];
+console.log(arr.length); // 3
