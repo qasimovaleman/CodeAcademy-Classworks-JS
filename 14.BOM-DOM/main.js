@@ -62,3 +62,8 @@ let colorBtn=document.querySelector(".click")
 let body=document.getElementById("body")
 
 let colors=["blue","red","green",]
+
+
+
+
+
