@@ -1,0 +1,15 @@
+
+
+
+
+
+
+
+
+.dark-mode {
+  background-color: black;
+  
+}
+.dark-mode h1,.dark-mode p, .dark-mode h2 {
+    color: white;
+}
