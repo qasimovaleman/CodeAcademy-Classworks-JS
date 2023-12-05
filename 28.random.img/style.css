@@ -1,0 +1,15 @@
+.container {
+  background-image: linear-gradient(
+    to left bottom,
+    blue,
+    blueviolet,
+    pink,
+    yellow
+  );
+  height: 100vh;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
