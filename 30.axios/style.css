@@ -1,0 +1,41 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.btns {
+  column-gap: 2rem;
+}
+button {
+    margin-top: 25px;
+  background-color: white;
+  color: rgb(80, 80, 221);
+  border: none;
+  height: 30px;
+  border: 1px solid blue;
+  border-radius: 6px;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid grey;
+}
+img {
+  width: 150px;
+  height: 150px;
+}
+.box-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button:hover {
+  cursor: pointer;
+  background-color: rgb(13, 13, 49);
+  color: white;
+}
+h1{
+   padding-left: 15px; 
+   color: cornflowerblue;
+}
