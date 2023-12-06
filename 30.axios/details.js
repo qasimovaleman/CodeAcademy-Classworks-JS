@@ -22,6 +22,7 @@ function drawCards(arr) {
               <p class="card-text-one">${arr.title}</p>
               <p class="card-text-two">${arr.price}</p>
               <p class="card-text-three">${arr.category}</p>
+              <p class="card-text-three">${arr.description.slice(0, 100)}...</p>
           </div>
   
       </div>
