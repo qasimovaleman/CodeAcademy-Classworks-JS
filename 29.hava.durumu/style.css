@@ -47,4 +47,7 @@ button {
   width: 25%;
   height: 60%;
   background-color: rgb(238, 204, 157);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
