@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cards {
+  width: 30%;
+}
+.card {
+  border: 1px solid rgb(187, 183, 183);
+
+  height: 60%;
+  padding: 20px;
+  list-style: 10px;
+  margin-bottom: 8px;
+}

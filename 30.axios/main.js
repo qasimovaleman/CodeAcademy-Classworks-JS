@@ -21,7 +21,7 @@ function drawCards(array) {
     box.innerHTML += `
     <a href="./details.html?id=${element.id}">
     <img src="${element.image}" class="card-img-top " alt="">
-</a>
+    </a>
     
       <p>${element.title}</p>
      
