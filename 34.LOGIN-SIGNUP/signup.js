@@ -3,6 +3,7 @@ let username = document.querySelector(".username");
 let email = document.querySelector(".email");
 let password = document.querySelector(".password");
 //
+username.localStorage.setItem("user", username);
 let userArr = [];
 form.addEventListener("submit", function (e) {
   e.preventDefault();
