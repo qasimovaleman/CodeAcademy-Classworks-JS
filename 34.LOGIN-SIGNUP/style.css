@@ -1,0 +1,65 @@
+h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: green;
+}
+/* -------------- */
+h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.bg-sign {
+  background-color: black;
+  padding: 1px 0;
+  font-size: 1.1rem;
+}
+.parentDiv {
+  display: flex;
+  flex-direction: column;
+}
+form {
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid green;
+  margin: 30px auto;
+  background-color: rgb(194, 229, 243);
+  border-radius: 8px;
+}
+form:hover {
+  box-shadow: 5px 3px 5px rgb(163, 135, 135);
+}
+.signupBtn {
+  margin-top: 15px;
+  width: 200px;
+  margin-bottom: 25px;
+}
+.username {
+  margin-top: 20px;
+}
+
+.ikonDiv {
+  position: relative;
+}
+i {
+  position: absolute;
+  top: 53px;
+  right: 0;
+  padding-right: 10px;
+}
+.formBottom {
+  display: flex;
+  gap: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+.formBottom a {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+}
