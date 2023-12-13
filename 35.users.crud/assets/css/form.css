@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  background-color: chocolate;
+
+  margin-bottom: 30px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+.divLeft {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 8%;
+}
+.divRight ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 2rem;
+}
+.divRight ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.1rem;
+}
+
+.image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.parentDiv {
+  display: flex;
+  flex-direction: column;
+}
+form {
+  width: 560px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: auto;
+  border-radius: 8px;
+}
+.fileInput {
+  width: 220px;
+  margin-top: 10px;
+}
+.submitBtn {
+  width: 70px;
+  margin-top: 10px;
+}

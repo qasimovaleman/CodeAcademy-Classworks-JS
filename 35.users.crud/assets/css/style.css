@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+header {
+ 
+  width: 100%;
+  background-color: chocolate;
+  position: fixed;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+.divLeft {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 8%;
+}
+.divRight ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 2rem;
+}
+.divRight ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.1rem;
+}
+.banner {
+  background-image: url("../img/bg1.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+.image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.usersList {
+  text-decoration: underline crimson;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
