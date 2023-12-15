@@ -1,0 +1,9 @@
+.dark-mode p,
+.dark-mode h5,
+.dark-mode h3 {
+  color: black;
+}
+.dark-mode .goBack {
+  color: white;
+  font-size: 1.2rem;
+}
